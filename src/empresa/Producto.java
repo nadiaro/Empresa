@@ -8,6 +8,7 @@ public class Producto extends Item{
 		super(iD, descripcion);
 		this.precio = precio;
 	}
+	
 
 	public Double getPrecio() {
 		return precio;

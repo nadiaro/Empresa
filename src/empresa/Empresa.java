@@ -5,14 +5,12 @@ import java.util.ArrayList;
 public class Empresa {
 	
 	private String nom;
-	private ArrayList<Venta>listaVentas;
+	private ArrayList<Venta>listaVentas=new ArrayList<Venta>();
 	
-	public Empresa(String nom, ArrayList<Venta> listaVentas) {
+	public Empresa(String nom) {
 		
 		this.nom = nom;
-		this.listaVentas = listaVentas;
 	}
-
 	public String getNom() {
 		return nom;
 	}

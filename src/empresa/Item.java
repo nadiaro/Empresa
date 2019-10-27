@@ -19,7 +19,7 @@ public abstract class Item {
 
 
 	public void setID(Long iD) {
-		ID = iD;
+		this.ID = iD;
 	}
 
 
